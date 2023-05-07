@@ -1,0 +1,87 @@
+.section1{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1400px;
+    background-image: url('../Images/Rectangle\ \(8\).png'); 
+    background-size: cover ; 
+    clip-path: polygon(0 0, 100% 0 ,100% 45rem, 0 100%);
+}
+ .section1-wrap1{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+/* .section1-wrap1 p{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 600px;
+} */
+
+.section1-wrap1-child img{
+    width: 100%;
+    margin: 40px auto;
+}
+ .wrap1-btn button{
+   width: 40%;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;  
+    margin-bottom: 50px;
+    margin-top: 30px;
+} 
+ .wrap1-btn{
+    max-width: 300px;
+    margin: 0 auto;
+    /* text-align: left; */
+}
+.button1{
+    background: #377DFF;
+    color: #fff;
+    border: none;
+}
+.wrap1-btn button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+    transform: scale(1.05);
+}
+.button2{
+    background: inherit;
+    border: 2px solid #377DFF;
+    color: #fff;
+} 
+@media (max-width:1200px) {
+    .section1-image{
+        display: none;
+    }   
+}
+@media (min-width:990px) {
+    .section1{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .section1-wrap1-child img{
+        /* width: 100%; */
+    }   
+}
+@media (min-width:1200px) {
+    .section1-wrap1 p{
+        text-align: left;
+        margin: 0 auto;
+        width: 130%;
+    }
+    .section1-wrap1{
+        margin-left: 5%;
+    }
+
+    .section1-wrap1-child{
+        width: 150%;
+    }
+    .wrap1-btn {
+        text-align: left;
+        margin: 0;
+    }
+}

@@ -1,0 +1,11 @@
+.navbar2{
+    /* width: 100%;
+    margin: 0 auto;
+    max-width: 1400px; */
+    background: #0C1117;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+}
+.nav-wrap2 {
+    font-size: 16px;
+    text-transform: uppercase;
+}
